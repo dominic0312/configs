@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ClientConfig>
+	<code>CRCD</code>
+	<language>zh</language>
+	<country>CN</country>
+ 	<developMode>false</developMode>
+	<wsURL>ws://creditcloud.com:8080</wsURL>
+	<features>
+	</features>
+</ClientConfig>

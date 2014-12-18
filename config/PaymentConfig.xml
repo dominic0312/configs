@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PaymentConfig>
+    <merId>530052</merId>
+    <merCustId>6000060000072371</merCustId>
+    <privateKeyPath>/var/CreditCloud/MerPrK.key</privateKeyPath>
+    <publicKeyPath>/var/CreditCloud/PgPubk.key</publicKeyPath>
+    <url>http://test.chinapnr.com</url>
+    <path>/muser/publicRequests</path>
+    <retUrl>http://demo.creditcloud.com</retUrl>
+    <adminRetUrl>http://admin.creditcloud.com/admin</adminRetUrl>
+    <deviceRetUrl>http://device.creditcloud.com/device</deviceRetUrl>
+    <maxTenderRate>0.10</maxTenderRate>
+    <maxBorrowerRate>0.99</maxBorrowerRate>
+    <baseAccount>
+        <accountType>MERDT</accountType>
+        <accountId>MDT000001</accountId>
+        <name>往来账户</name>
+    </baseAccount>
+    <guaranteeAccount>
+        <accountType>SPEDT</accountType>
+        <accountId>SDT000001</accountId>
+        <name>风险金账户</name>
+    </guaranteeAccount>
+    <feeAccount>
+        <accountType>SPEDT</accountType>
+        <accountId>SDT000002</accountId>
+        <name>手续费账户</name>
+    </feeAccount>
+</PaymentConfig>

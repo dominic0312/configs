@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<EmailConfig>
+	<host>smtp.gmail.com</host>
+	<port>465</port>
+	<user>donotreply@creditcloud.com</user>
+	<password>donotreply</password>
+	<personal>CreditCloud</personal>
+	<charset>UTF-8</charset>
+</EmailConfig>
